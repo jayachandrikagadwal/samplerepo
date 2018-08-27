@@ -12,11 +12,7 @@ public class SampleClassTest {
         String name = sampleclass.getName();
         assertEquals("maven",name);
     }
-    @Test
-    public void displayTest(){
-        SampleClass sampleclass = new SampleClass();
-        sampleclass.display();
-    }
+   
     @Test
     public void doSmtng(){
         SampleClass sampleClass = new SampleClass();
